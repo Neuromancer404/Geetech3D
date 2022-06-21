@@ -19,7 +19,6 @@
     <div class="rightPart">
       <div class="regist" v-if="!authInSystem">
         <a class="regist"  @click="Auth(0)">Регистрация</a>
-    
         <div class="entire" >
           <a class="entire" @click="Auth(1)">Вход</a>
         </div>

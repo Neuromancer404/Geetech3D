@@ -79,6 +79,7 @@ export default function(text){
       texcoord: webglVertexData[1],
       normal: webglVertexData[2],
     };
+    console.log(JSON.stringify(obj))
   }
   
   export function resetObj(){

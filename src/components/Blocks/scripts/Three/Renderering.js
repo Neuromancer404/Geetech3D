@@ -71,7 +71,6 @@ export default class{
         catch(e){
             errorHandler("Rendering", "supportAndCnvsSize_1", e, "canvas");
         }
-        return false;
     }
     init(THREE, canvas, width, height, cameraPosition){
         try{

@@ -27,7 +27,6 @@ export default {
     },
     mounted: function(){
         start3d(THREE, orbValue)
-
     },
     created: function(){
         this.emitter.on("Rerender", data=>{
@@ -56,10 +55,8 @@ export default {
     }
 }
 
-
 function start3d(THREE, orbCont){
     try{
-        
         let cameraPosition = {};
         if(typeof session[0] == 'object'){
             cameraPosition = camera.position
